@@ -21,6 +21,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: _import("about")
+  },
+  {
+    path: '/list',
+    name: 'list',
+    component: _import("list")
   }
 ]
 
